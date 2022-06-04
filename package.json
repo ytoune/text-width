@@ -1,7 +1,7 @@
 {
 	"name": "@ytoune/text-width",
 	"type": "module",
-	"version": "1.0.0",
+	"version": "1.1.0",
 	"description": "",
 	"author": {
 		"name": "ytoune"
@@ -11,13 +11,9 @@
 	},
 	"license": "MIT",
 	"source": "src/index.ts",
-	"exports": {
-		"require": "./dist/index.cjs",
-		"default": "./dist/index.modern.js"
-	},
 	"main": "dist/index.cjs",
 	"module": "dist/index.module.js",
-	"types": "dist/src/index.d.ts",
+	"types": "dist/index.d.ts",
 	"publishConfig": {
 		"access": "public"
 	},

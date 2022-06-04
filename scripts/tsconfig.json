@@ -1,0 +1,12 @@
+{
+	"extends": "../tsconfig.json",
+	"compilerOptions": {
+		"strict": true,
+		"noEmit": true,
+		"isolatedModules": false,
+		"resolveJsonModule": true,
+		"noUnusedLocals": false,
+		"noUnusedParameters": false
+	},
+	"include": ["**/*.ts", "**/*.tsx", "**/*.js"]
+}

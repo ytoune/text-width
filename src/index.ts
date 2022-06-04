@@ -1,2 +1,5 @@
+export * from './get-char-size'
 export * from './get-text-width'
+export * from './inseparable-error'
+export * from './parse-for-hankaku'
 export * from './text-separater'
