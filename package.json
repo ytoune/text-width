@@ -1,5 +1,6 @@
 {
 	"name": "@ytoune/text-width",
+	"type": "module",
 	"version": "0.0.1",
 	"description": "",
 	"author": {
@@ -16,7 +17,7 @@
 	},
 	"main": "dist/index.cjs",
 	"module": "dist/index.module.js",
-	"types": "dist/index.d.ts",
+	"types": "dist/src/index.d.ts",
 	"publishConfig": {
 		"access": "public"
 	},
