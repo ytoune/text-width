@@ -1,29 +1,28 @@
 {
-	"compilerOptions": {
-		"outDir": "dist",
-		"declarationDir": "dist",
-		"declaration": true,
-		"target": "esnext",
-		"module": "esnext",
-		"lib": ["es2021"],
-		"esModuleInterop": true,
-		"isolatedModules": true,
-		"noEmit": true,
-		"strict": true,
-		"noImplicitThis": true,
-		"noImplicitAny": true,
-		"noUncheckedIndexedAccess": true,
-		"importsNotUsedAsValues": "error",
-		"useDefineForClassFields": true,
-		"skipLibCheck": true,
-		"forceConsistentCasingInFileNames": true,
-		"moduleResolution": "node",
-		"baseUrl": "src",
-		"paths": {
-			"~/*": ["*"]
-		},
-		"allowSyntheticDefaultImports": true
-	},
-	"include": ["src/**/*"],
-	"exclude": ["node_modules", "dist"]
+  "compilerOptions": {
+    "outDir": "dist",
+    "declarationDir": "dist",
+    "declaration": true,
+    "target": "esnext",
+    "module": "esnext",
+    "lib": ["es2021"],
+    "esModuleInterop": true,
+    "isolatedModules": true,
+    "noEmit": true,
+    "strict": true,
+    "noImplicitThis": true,
+    "noImplicitAny": true,
+    "noUncheckedIndexedAccess": true,
+    "useDefineForClassFields": true,
+    "skipLibCheck": true,
+    "forceConsistentCasingInFileNames": true,
+    "moduleResolution": "node",
+    "baseUrl": "src",
+    "paths": {
+      "~/*": ["*"]
+    },
+    "allowSyntheticDefaultImports": true
+  },
+  "include": ["src/**/*"],
+  "exclude": ["node_modules", "dist"]
 }
